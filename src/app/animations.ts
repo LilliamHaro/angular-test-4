@@ -27,3 +27,4 @@ export const fadeAnimation = trigger('fadeAnimation', [
       ], { optional: true })
     ])
   ])
+])

@@ -1,0 +1,11 @@
+.glitch-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/07/06/15308805372476.jpg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}

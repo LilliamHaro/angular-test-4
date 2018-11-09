@@ -10,6 +10,9 @@ export class ProyectosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    setTimeout(function(){
+      document.getElementsByClassName('content')[0].classList.add('opacity-1');
+    },500)
   }
 
 }
