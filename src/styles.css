@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+router-outlet ~ * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.full-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  background: plum;
+}
+.forms {
+ background: palegoldenrod
+}
+.proyectos {
+  background: paleturquoise;
+}
